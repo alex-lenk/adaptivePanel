@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+
+#modx-navbar #modx-home-dashboard,
+#modx-manager-search-icon,
+#modx-manager-search,
+.dashboard-block,
+#modx-welcome-header,
+.x-toolbar-left .x-toolbar-cell:last-child,
+#modx-action-buttons #modx-abtn-cancel,
+#modx-action-buttons #modx-abtn-duplicate {
+	display:none;
+}
+
+#modx-user-menu {height: 55px;overflow: hidden;}
+#modx-navbar #modx-user-menu li {float: none;}
+
+
+.x-column,
+.x-form-field,
+.x-tab-panel-body-noborder .x-panel-body-noheader {
+    width: 97% !important;
+}
+
+.x-tab-panel-body-noborder .x-panel-body-noheader {
+	width: 300px !important;
+}
+
+
+
+
+
+#modx-leftbar {padding:35px 0 0;}
+
+
+.x-layout-collapsed {background-color: #3F4952;}
+#modx-leftbar-tabs-xcollapsed .x-layout-mini, .x-layout-split .x-layout-mini {
+background-color: rgba(255,255,255, 0.5);
+width: 20px;
+opacity: 1;
+top: 103px;
+}
+
+
+#modx-resource-header {width:320px !important;padding: 40px 0 0;}
+h2, h3 {
+    font-size: 21px;
+}
+
+
+#modx-resource-tabs .x-tool.x-tool-toggle {
+    width:320px !important;
+    top: -18px;
+    right: -10px;
+}
+
+
+.x-tab-panel-body.x-tab-panel-body-noborder.x-tab-panel-body-top {
+    overflow: hidden !important;
+    width: auto !important;
+}
+
+.x-column {
+    float: none;
+    margin: 0 0 20px;
+}
+.x-tab-strip li {
+    padding: 0 5px;
+}
+.x-column-inner>.x-column~.x-column {
+    margin-left: 0;
+}
+
+.x-form-field-wrap.x-form-field-trigger-wrap {width:auto !important;}
+
+
+.ace_maximizer {cursor: pointer;}
+
+
+}
