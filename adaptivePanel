@@ -1,0 +1,3 @@
+if ($modx->event->name != 'OnManagerPageInit') return;
+$modx->regClientStartupHTMLBlock('<meta name="viewport" content="width=device-width, initial-scale=1">');
+$modx->regClientCSS('/media.css');
